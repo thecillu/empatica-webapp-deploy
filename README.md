@@ -9,7 +9,6 @@ The Bucket name is defined in the variable `webapp_bucket` (default `empatica-we
 
 2. Create the AWS CodeBuild which (when started), download the source code from the [Angular WebApp](https://github.com/thecillu/empatica-webapp), build the WebApp and copy the compiled version in the created S3 bucket
 
-
 ## AWS Credentials 
 
 The Terraform configuration reads the credentials file from the file: 
@@ -24,6 +23,11 @@ The Terraform configuration uses the variable `aws_region` to indentify the targ
 
 By Default the deployment Region is `eu-central-1`.
 
+## Create the AWS CodeBuild project 
+
+Clone the project, change dir and run the command:
+
+`terraform apply`
 
 ## Run AWS CodeBuild project 
 
