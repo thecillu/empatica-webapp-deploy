@@ -25,7 +25,7 @@ By Default the deployment Region is `eu-central-1`.
 
 ## Create the AWS CodeBuild project 
 
-Clone the project, change dir and run the command:
+Clone the project, change dir to subfolder `terraform` and run the command:
 
 `terraform apply`
 
